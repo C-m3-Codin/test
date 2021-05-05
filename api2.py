@@ -6,13 +6,13 @@ from werkzeug.utils import secure_filename
 from pymongo import MongoClient
 from bson.json_util import dumps
 # import firebase_admin
-import firebase_admin
-from firebase_admin import credentials
-from firebase_admin import db
+# import firebase_admin
+# from firebase_admin import credentials
+# from firebase_admin import db
 
 
 
-cred_obj = firebase_admin.credentials.Certificate('serviceAccountKey.jspm')
+# cred_obj = firebase_admin.credentials.Certificate('serviceAccountKey.jspm')
 ALLOWED_EXTENSIONS = set([ 'png', 'jpg', 'jpeg'])
 # app = Flask(__name__, template_folder="templates")
 app =Flask(__name__)
