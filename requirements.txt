@@ -13,6 +13,5 @@ pycryptodome==3.9.4
 pycryptodomex==3.9.4
 pycurl==7.43.0.3
 PyYAML==5.1.2
-ruamel-yaml==0.15.46
 terminado==0.8.2
 wrapt==1.11.2
