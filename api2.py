@@ -50,6 +50,11 @@ def ListFile():
         result.append({'FileName':i['FileName'],'Category':i['Category'],'path':i['FilePath']})
     resp=jsonify({"result":result})
     return resp
+    
+@app.route('/a', methods=['GET'])
+def ListFile():
+    resp=jsonify({"result":"SUCCESS"})
+    return resp
 
 
 # render page with images
